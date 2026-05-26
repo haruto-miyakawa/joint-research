@@ -1,0 +1,33 @@
+# 評価用のテスト質問。RAGがちゃんと機能しているかを確認するため、
+# lore.md に答えがある質問と、ない質問を混ぜておく。
+questions:
+  - id: q01
+    text: "魔法戦争はいつ起きたのですか?"
+    expected_topic: "魔法戦争"
+  - id: q02
+    text: "あなたは誰ですか?"
+    expected_topic: "自己紹介"
+  - id: q03
+    text: "スマートフォンの使い方を教えてください"
+    expected_topic: "世界観外(NPCが知らないはずの質問)"
+  - id: q04
+    text: "アルカニア王国の首都はどこですか?"
+    expected_topic: "地理・都市"
+  - id: q05
+    text: "禁術とはどのようなものですか?"
+    expected_topic: "魔法体系"
+  - id: q06
+    text: "英雄ライオスについて教えてください"
+    expected_topic: "登場人物"
+  - id: q07
+    text: "この図書館はいつ建てられたのですか?"
+    expected_topic: "図書館の歴史"
+  - id: q08
+    text: "闇属性の魔法はどのような流派がありますか?"
+    expected_topic: "魔法体系・流派"
+  - id: q09
+    text: "魔法戦争で何人が亡くなりましたか?"
+    expected_topic: "魔法戦争の詳細(lore.mdにない可能性あり)"
+  - id: q10
+    text: "料理のレシピを教えてください"
+    expected_topic: "世界観外(NPCが知らないはずの質問)"
